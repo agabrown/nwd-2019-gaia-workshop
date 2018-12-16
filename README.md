@@ -1,9 +1,8 @@
 # nwd-2019-gaia-workshop
 Workshop _Aan de slag met de data van de Gaia missie_ tijdens de Nationale Wiskunde Dagen 2019.
 
-Anthony Brown</br>
-Sterrewacht Leiden, Universiteit Leiden
-
+Anthony Brown<br/>
+Sterrewacht Leiden, Universiteit Leiden<br/>
 <brown@strw.leidenuniv.nl>
 
 ## Overzicht
