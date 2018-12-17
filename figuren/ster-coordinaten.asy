@@ -56,6 +56,9 @@ draw((pS.x,0,0)--(pS.x,pS.y,0),thinp+dashed);
 draw((0,pS.y,0)--(pS.x,pS.y,0),thinp+dashed);
 label("`Evenaar'",r*X,align=Relative(2.5*S+15*E));
 
+// indicate distance d
+label(scale(1.5)*Label("$d$"), 0.75*pS, align=Relative(4*W));
+
 // arc indicating angle alpha between meridians 0 and alpha
 draw(arc((0,0,pAux.z),rotate(-alpha,Z)*pAux,pAux),thickp+blue);
 
