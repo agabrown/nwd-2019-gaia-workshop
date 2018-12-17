@@ -7,4 +7,4 @@ Sterrewacht Leiden, Universiteit Leiden<br/>
 
 ## Overzicht
 
-In deze workshop wordt met behulp van [Python notebooks](https://ipython.org/notebook.html) het gebruik van Gaia data geïllustreerd. De notebooks dienen alleen om een idee te geven wat er in de wiskunde les met Gaia data gedaan zou kunnen worden. Het gebruik van [Python](https://www.python.org/) al dan niet in combinatie met [Jupyter notebooks](https://jupyter.org/) is niet nodig. Andere computer talen en/of programma's om data te analyseren of grafieken te maken kunnen ook prima gebruikt worden.
+In deze workshop wordt met behulp van [Python notebooks](https://ipython.org/notebook.html) het gebruik van Gaia data ge&iuml;llustreerd. De notebooks dienen alleen om een idee te geven wat er in de wiskunde les met Gaia data gedaan zou kunnen worden. Het gebruik van [Python](https://www.python.org/) al dan niet in combinatie met [Jupyter notebooks](https://jupyter.org/) is niet nodig. Andere computer talen en/of programma's om data te analyseren of grafieken te maken kunnen ook prima gebruikt worden.
