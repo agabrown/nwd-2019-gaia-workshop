@@ -38,6 +38,6 @@ draw(scale(2)*Label("$\mathbf{s}(t)$"), starendpos, 2*E);
 draw(star+rotate(starangle)*vrad -- star+rotate(starangle)*vtot, thickp+dotted);
 draw(star+rotate(starangle)*vtan -- star+rotate(starangle)*vtot, thickp+dotted);
 
-draw(scale(1.5)*Label("$\mathbf{r}(0)$", 0.8, 2*RightSide), (0,0)--2*unit(star), thickp, Arrow);
-draw(scale(1.5)*Label("$\mathbf{r}(t)$", 0.8, 2*LeftSide), (0,0)--2*unit(starendpos), thickp, Arrow);
+draw(scale(1.5)*Label("$\mathbf{u}(0)$", 0.8, 2*RightSide), (0,0)--2*unit(star), thickp, Arrow);
+draw(scale(1.5)*Label("$\mathbf{u}(t)$", 0.8, 2*LeftSide), (0,0)--2*unit(starendpos), thickp, Arrow);
 draw(scale(1.5)*Label("$\Delta\theta$", 0.5, RightSide), arc((0,0), 2*unit(star), 2*unit(starendpos)), Arrow);
