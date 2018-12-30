@@ -1,4 +1,7 @@
-// Illustrate the concepts of proper motion and radial velocity
+/* Illustrate the concepts of proper motion and radial velocity
+ *
+ * Anthony G.A. Brown Dec 2018
+ */
 
 settings.outformat = "pdf";  
 settings.tex = "pdflatex";  

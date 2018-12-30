@@ -1,4 +1,7 @@
-// Illustrate the meaning of the coordinates of a star on the sky.
+/* Illustrate the meaning of the coordinates of a star on the sky.
+ *
+ * Anthony G.A. Brown Dec 2018
+ */
 
 settings.outformat = "pdf";  
 settings.tex = "pdflatex";  
