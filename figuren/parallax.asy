@@ -1,4 +1,4 @@
-/* Illustrate the concept of parallax
+/* Illustrate the concept of parallax and parallactic motion of stars.
  *
  * Anthony G.A. Brown Dec 2018
  */
@@ -11,14 +11,14 @@ settings.render = 0;
 import three;
 import math;
 
-size(15cm, 0);
+size(10cm, 0);
 
 pen thickp = linewidth(0.5mm);
 pen defaultp = linewidth(0.3mm);
 pen thinp = linewidth(0.2mm);
 real radius = 3.0;
 real lambda = 60.0, beta = 70.0, distance = 8;
-real lambdaG1 = -40, betaG=0;
+real lambdaG1 = lambda-90, betaG=0;
 real lambdaG2 = lambdaG1+180;
 
 triple star = distance*dir(90-beta, lambda);
@@ -61,4 +61,4 @@ draw(scale(2)*Label("$s$", 0.4, 2*LeftSide), O--star, dashed+thickp);
 draw(scale(2)*Label("1 AU", 0.2, 3*N+E), Gaia1--Gaia2, dashed+thickp);
 dot(O, orange+linewidth(12mm));
 
-draw(scale(2.0)*Label("$\varpi$", 0.5, 2*S+3*E), arc(star, star+1.5*dir(star--O), star+1.5*dir(star--Gaia2)), thickp);
+draw(scale(2.0)*Label("$\varpi$", 0.4, 2*S+2*W), arc(star, star+1.5*dir(star--O), star+1.5*dir(star--Gaia1)), thickp);
