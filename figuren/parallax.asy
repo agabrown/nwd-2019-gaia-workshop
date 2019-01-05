@@ -57,7 +57,7 @@ draw(star--plxell2, thickp);
 path3 plxell = plxell1..plxell1a..plxell2..plxell2a..cycle;
 draw(plxell, thickp);
 
-draw(scale(2)*Label("$s$", 0.4, 2*LeftSide), O--star, dashed+thickp);
+draw(scale(2)*Label("$b$", 0.4, 2*LeftSide), O--star, dashed+thickp);
 draw(scale(2)*Label("1 AU", 0.2, 3*N+E), Gaia1--Gaia2, dashed+thickp);
 dot(O, orange+linewidth(12mm));
 

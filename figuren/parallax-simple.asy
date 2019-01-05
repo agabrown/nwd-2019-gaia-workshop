@@ -25,7 +25,7 @@ pair Gaia2 = (radius, 0);
 path plxtriangle = (0,0) -- Gaia1 -- star -- Gaia2 -- cycle;
 
 draw(plxtriangle, thickp);
-draw(scale(2)*Label("$s$", 0.4, 2*LeftSide), (0,0) -- star, thickp+dashed);
+draw(scale(2)*Label("$b$", 0.4, 2*LeftSide), (0,0) -- star, thickp+dashed);
 dot(scale(2)*Label("$S$", 0.5, 2*E), star, linewidth(3mm));
 dot(Gaia1, linewidth(5mm));
 dot(Gaia2, linewidth(5mm));

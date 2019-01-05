@@ -35,8 +35,8 @@ dot(star, linewidth(3mm));
 dot(starendpos, linewidth(3mm));
 
 draw(scale(2)*Label("$O$"), (0,0), S);
-draw(scale(2)*Label("$\mathbf{s}(0)$"), star, 2*S);
-draw(scale(2)*Label("$\mathbf{s}(t)$"), starendpos, 2*E);
+draw(scale(2)*Label("$\mathbf{b}(0)$"), star, 2*S);
+draw(scale(2)*Label("$\mathbf{b}(t)$"), starendpos, 2*E);
 
 draw(star+rotate(starangle)*vrad -- star+rotate(starangle)*vtot, thickp+dotted);
 draw(star+rotate(starangle)*vtan -- star+rotate(starangle)*vtot, thickp+dotted);

@@ -15,7 +15,7 @@ import solids;
 
 size(15cm, 0);
 
-render render=render(compression=Low,merge=true);
+render render=render(compression=Low, merge=true);
 
 pen thickp = linewidth(0.5mm);
 pen defaultp = linewidth(0.3mm);
@@ -62,8 +62,8 @@ draw((pS.x,0,0)--(pS.x,pS.y,0),thinp+dashed);
 draw((0,pS.y,0)--(pS.x,pS.y,0),thinp+dashed);
 label("`Evenaar'",r*X,align=Relative(2.5*S+15*E));
 
-// indicate distance d
-label(scale(1.5)*Label("$s$"), 0.45*pS, align=Relative(1*E));
+// indicate barycentric distance b
+label(scale(1.5)*Label("$b$"), 0.45*pS, align=Relative(1*E));
 
 // arc indicating angle alpha between meridians 0 and alpha
 draw(arc((0,0,pAux.z),rotate(-alpha,Z)*pAux,pAux),thickp+blue);
@@ -81,8 +81,8 @@ triple uvecQ = cross(uvecR,uvecP);
 
 real scaleplane = 0.75;
 path3 tangentplane = pS+scaleplane*(uvecP+uvecQ) -- pS+scaleplane*(-uvecP+uvecQ) -- pS+scaleplane*(-uvecP-uvecQ) -- pS+scaleplane*(uvecP-uvecQ) -- cycle;
-draw(tangentplane, thinp);
 draw(surface(tangentplane), grey+opacity(0.5), render);
+draw(tangentplane, thinp);
 
 draw(Label("$\mathbf{p}$",1),pS--(pS+uvecP),thickp+blue,Arrow3(10pt));
 draw(Label("$\mathbf{q}$",1),pS--(pS+uvecQ),thickp+blue,Arrow3(10pt));
