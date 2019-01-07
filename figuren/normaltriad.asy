@@ -43,6 +43,10 @@ label("`Noorden'",radius*Z,align=Relative(2.5*W+2*N));
 // Sky sphere
 revolution skysphere = sphere(O,radius);
 draw(skysphere, 1);
+triple parallelC = radius*Sin(delta)*Z;
+//draw(arc(parallelC, parallelC+radius*Cos(delta)*dir(90,alpha-60), parallelC+radius*Cos(delta)*dir(90,alpha-40)), thickp+dotted);
+draw(arc(parallelC, parallelC+radius*Cos(delta)*dir(90,alpha-60), parallelC+radius*Cos(delta)*dir(90,alpha+60)), dashed);
+draw(arc(parallelC, parallelC+radius*Cos(delta)*dir(90,alpha-40), parallelC+radius*Cos(delta)*dir(90,alpha+40)), thickp);
 
 // Add meridian trough +Z and +X
 path3 meridian_front = arc(O,radius*Z,radius*X,Y);
