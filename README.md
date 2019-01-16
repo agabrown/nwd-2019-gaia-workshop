@@ -12,5 +12,5 @@ In deze workshop wordt met behulp van [Python notebooks](https://ipython.org/not
 Het is het beste om de notebooks in de onderstaande volgorde door te werken.
 1. [Inleiding astrometrie en Gaia data](./GaiaData.ipynb)
 2. [Introductie gebruik Gaia Archive](./GaiaArchive.ipynb)
-3. [Gebruik van Python voor het opvragen van de gegevens van Barnard's ster, met illustratie van graphische mogelijkheden in Python](BarnardsSter.ipynb)
-4. [Gegevens opvragen van alle sterren binnen 10 parsec van de zon, met illustratie van graphische mogelijkheden in Python](TienParsec.ipynb)
+3. [Gebruik van Python voor het opvragen van de gegevens van Barnard's ster, met illustratie van grafische mogelijkheden in Python](BarnardsSter.ipynb)
+4. [Gegevens opvragen van alle sterren binnen 10 parsec van de zon, met illustratie van grafische mogelijkheden in Python](TienParsec.ipynb)

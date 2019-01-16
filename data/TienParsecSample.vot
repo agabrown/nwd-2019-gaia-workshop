@@ -2,24 +2,24 @@
 <VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
 <RESOURCE type="results">
 <INFO name="QUERY_STATUS" value="OK"/>
-<INFO name="QUERY" value=""><![CDATA[select source_id, ra, dec, parallax, pmra, pmdec, radial_velocity, phot_g_mean_mag, bp_rp
-from gaiadr2.gaia_source
+<INFO name="QUERY" value=""><![CDATA[select source_id, ra, dec, parallax, pmra, pmdec, radial_velocity, phot_g_mean_mag, bp_rp 
+from gaiadr2.gaia_source 
 where 
-parallax >= 100
-and
+parallax >= 100 
+and 
 bp_rp is not null
-and
+and 
 (astrometric_chi2_al/(astrometric_n_good_obs_al-5)<1.44*exp(-0.4*(phot_g_mean_mag-19.5))
-or
+or 
 astrometric_chi2_al/(astrometric_n_good_obs_al-5)<1)
-and
-1.0+0.015*(bp_rp*bp_rp)<phot_bp_rp_excess_factor
-and
+and 
+1.0+0.015*(bp_rp*bp_rp)<phot_bp_rp_excess_factor 
+and 
 1.3+0.06*(bp_rp*bp_rp)>phot_bp_rp_excess_factor]]></INFO>
 <INFO name="CAPTION" value=""><![CDATA[How to cite and acknowledge Gaia: http://gea.esac.esa.int/archive/documentation/credits.html]]></INFO>
 <INFO name="PAGE" value=""></INFO>
 <INFO name="PAGE_SIZE" value=""></INFO>
-<INFO name="JOBID" value="1547566851082O"><![CDATA[1547566851082O]]></INFO>
+<INFO name="JOBID" value="1547651095657O"><![CDATA[1547651095657O]]></INFO>
 <INFO name="JOBNAME" value=""><![CDATA[TienParsecSample]]></INFO>
 <COOSYS ID="GAIADR2" epoch="J2015.5" system="ICRS" />
 
