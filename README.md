@@ -14,3 +14,10 @@ Het is het beste om de notebooks in de onderstaande volgorde door te werken.
 2. [Introductie gebruik Gaia Archive](./GaiaArchive.ipynb)
 3. [Gebruik van Python voor het opvragen van de gegevens van Barnard's ster, met illustratie van grafische mogelijkheden in Python](BarnardsSter.ipynb)
 4. [Gegevens opvragen van alle sterren binnen 10 parsec van de zon, met illustratie van grafische mogelijkheden in Python](TienParsec.ipynb)
+
+## Interactieve versie
+
+Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te
+klikken.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agabrown/nwd-2019-gaia-workshop/v1.0)

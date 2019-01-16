@@ -1,0 +1,8 @@
+channels:
+    - conda-forge
+    - astropy
+dependencies:
+    - matplotlib
+    - numpy
+    - astropy
+    - astroquery
