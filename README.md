@@ -20,4 +20,4 @@ Het is het beste om de notebooks in de onderstaande volgorde door te werken.
 Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te
 klikken.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agabrown/nwd-2019-gaia-workshop/v1.0-alpha)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agabrown/nwd-2019-gaia-workshop/v1.0-beta.1)
