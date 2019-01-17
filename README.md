@@ -7,7 +7,7 @@ Sterrewacht Leiden, Universiteit Leiden<br/>
 
 ## Overzicht
 
-In deze workshop wordt met behulp van [Python notebooks](https://ipython.org/notebook.html) het gebruik van Gaia data ge&iuml;llustreerd. De notebooks dienen alleen om een idee te geven wat er in de wiskunde les met Gaia data gedaan zou kunnen worden. Het gebruik van [Python](https://www.python.org/) al dan niet in combinatie met [Jupyter notebooks](https://jupyter.org/) is niet nodig. Andere computer talen en/of programma's om de data te analyseren of grafieken te maken kunnen ook prima gebruikt worden.
+In deze workshop wordt met behulp van [Python notebooks](https://ipython.org/notebook.html) het gebruik van Gaia data ge&iuml;llustreerd. De notebooks dienen alleen om te leren hoe je data uit de Gaia DR2 database kunt halen, en om een idee te geven wat er in de wiskundeles met Gaia data gedaan zou kunnen worden. Het gebruik van [Python](https://www.python.org/) al dan niet in combinatie met [Jupyter notebooks](https://jupyter.org/) is niet nodig. Andere computertalen en/of programma's om de data te analyseren of grafieken te maken kunnen ook prima gebruikt worden.
 
 Het is het beste om de notebooks in de onderstaande volgorde door te werken.
 1. [Inleiding astrometrie en Gaia data](./GaiaData.ipynb)
@@ -15,9 +15,10 @@ Het is het beste om de notebooks in de onderstaande volgorde door te werken.
 3. [Gebruik van Python voor het opvragen van de gegevens van Barnard's ster, met illustratie van grafische mogelijkheden in Python](BarnardsSter.ipynb)
 4. [Gegevens opvragen van alle sterren binnen 10 parsec van de zon, met illustratie van grafische mogelijkheden in Python](TienParsec.ipynb)
 
+De eerste twee notebooks zijn bedoeld om door te lezen en bevatten geen uitvoerbare code. De rest van de notebooks bevat uitvoerbare Python code om de Gaia data op te vragen en te analyseren.
+
 ## Interactieve versie
 
-Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te
-klikken.
+Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te klikken. Dit cre&euml;ert een omgeving in de browser waarin de Python code uitgevoerd kan worden. Het opstarten kan wel een minuut duren.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agabrown/nwd-2019-gaia-workshop/v1.0-beta.1)
