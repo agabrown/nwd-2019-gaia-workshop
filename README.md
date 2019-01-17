@@ -19,6 +19,10 @@ De eerste twee notebooks zijn bedoeld om door te lezen en bevatten geen uitvoerb
 
 ## Interactieve versie
 
-Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te klikken. Dit cre&euml;ert een omgeving in de browser waarin de Python code uitgevoerd kan worden. Het opstarten kan wel een minuut duren.
+Je kunt de interactieve versie van deze workshop opstarten door op de onderstaande [binder](https://mybinder.org) knop te klikken. Dit cre&euml;ert een omgeving in de browser waarin de Python code uitgevoerd kan worden. Je hoeft dus zelf niets te installeren of te downloaden om de notebooks te gebruiken. Het opstarten kan wel een minuut duren.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agabrown/nwd-2019-gaia-workshop/v1.0-beta.1)
+
+## Hergebruik en aanpassen van workshop materiaal
+
+Het staat je vrij een om voor eigen gebruik een copie ("fork" knop bovenaan de pagina) van deze github repository te maken of om al het materiaal te downloaden ("Clone or download" knop). De notebooks kunnen dan naar believen aangepast worden.
